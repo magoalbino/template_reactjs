@@ -4,12 +4,12 @@ import { IRotas } from "./RotasPrivadas";
 
 const LoginFormGovBr = lazy(() => {
   return import(
-    /* webpackChunkName: "LoginForm-chunk" */ "../modules/Login/LoginFormGovBr"
+    /* webpackChunkName: "LoginForm-chunk" */ "../pages/Login/LoginFormGovBr"
   );
 });
 const LoginProcess = lazy(() => {
   return import(
-    /* webpackChunkName: "LoginProccess-chunk" */ "../modules/Login/LoginProcess"
+    /* webpackChunkName: "LoginProccess-chunk" */ "../pages/Login/LoginProcess"
   );
 });
 

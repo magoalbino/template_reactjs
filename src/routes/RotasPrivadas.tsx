@@ -5,11 +5,11 @@ import { Box } from "@mui/material";
 import { privateRoutesNames } from "./routesConstants";
 
 let Home = lazy(() => {
-  return import(/* webpackChunkName: "Home-chunk" */ "../modules/Home");
+  return import(/* webpackChunkName: "Home-chunk" */ "../pages/Home");
 });
 let Templates = lazy(() => {
   return import(
-    /* webpackChunkName: "Templates-chunk" */ "../modules/Templates"
+    /* webpackChunkName: "Templates-chunk" */ "../pages/Templates"
   );
 });
 
